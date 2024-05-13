@@ -1,7 +1,9 @@
+import Nav from "./Components/Nav"
+
 let App=()=>{
     return(
         <div>
-            <h1>ugh</h1>
+            <Nav/>
         </div>
     )
 }
