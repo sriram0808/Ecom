@@ -1,0 +1,30 @@
+.mobileName{
+    color:  rgb(20, 70, 160);;
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+.mobileRate{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mobileDelivery{
+    color: rgb(31, 190, 93);
+    font-size: 23px;
+  
+}
+.view{
+    height: 40px;
+    width: 190px;
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+  
+ 
+  
+
+  
