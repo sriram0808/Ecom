@@ -22,9 +22,9 @@
     border-radius: 8px;
     border: none;
 }
-
-  
- 
-  
-
-  
+.view:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

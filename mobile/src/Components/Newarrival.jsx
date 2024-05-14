@@ -48,7 +48,7 @@ let Newarrival=()=>{
             image: Mobile1,
             alt: "Card 3",
             content: "Oppo",
-            amount:"hgjhg",
+            amount:"$799",
             delivery:"Free delivery"
 
         },
@@ -82,11 +82,11 @@ let Newarrival=()=>{
             </div>
 
 
-            <div className="container my-4 justify-content-center mt-5">
-    <div className="row text-center ">
+            <div className="container-fluid my-4 justify-content-center mt-5">
+    <div className="row text-center " style={{margin:"50px"}}>
         {cardData.slice(0, 4).map((card, index) => (
             <div className="col mb-4" key={index} >
-                <div className="card" style={{ width: "18rem", backgroundColor: "rgb(248,248,248)" }}>
+                <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
                     <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
                     <div className="card-body">
                         <p className="text-center mobileName">{card.content}</p>
@@ -97,10 +97,10 @@ let Newarrival=()=>{
             </div>
         ))}
     </div>
-    <div className="row text-center mt-5">
+    <div className="row text-center" style={{margin:"50px"}}>
         {cardData.slice(4).map((card, index) => (
             <div className="col mb-4" key={index}>
-                <div className="card" style={{ width: "18rem", backgroundColor: "rgb(248,248,248)" }}>
+                <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
                     <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
                     <div className="card-body">
                         <p className="text-center mobileName">{card.content}</p>

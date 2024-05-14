@@ -8,10 +8,10 @@ import Nothing from "../Assests/Images/nothing.png"
 import Newarrival from "./Newarrival";
 let Categories=()=>{
     return(
-        <div>
+        <div style={{backgroundColor:"rgb(248,248,248)"}}>
             <div className="container">
-                <div className="row text-center my-5">
-                    <h3 className="cat fw-semibold"> <LuWaves /> Categories</h3>
+                <div className="row text-center ">
+                    <h3 className="cat fw-semibold my-5"> <LuWaves /> Categories</h3>
                 </div>
                 <div className="row text-center">
                     <h1 className="fw-bold">Fresh Finds Unveiling New <br /> Arrivals For You</h1>
@@ -23,37 +23,37 @@ let Categories=()=>{
                         <div className="row mx-4">
                             <img src={samsung} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4 mx-4 " style={{color:"red",fontSize:"25px"}}>Samsung</div>
+                        <div className="row my-4 mx-4 " style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Samsung</div>
                     </div>
                     <div className="col ">
                         <div className="row mx-4">
                             <img src={Iphone} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4  mx-5" style={{color:"red",fontSize:"25px"}}>Iphone</div>
+                        <div className="row my-4  mx-5" style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Iphone</div>
                     </div>
                     <div className="col ">
                         <div className="row mx-4">
                             <img src={Vivo} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4  mx-5" style={{color:"red",fontSize:"25px"}}>Vivo</div>
+                        <div className="row my-4  mx-5" style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Vivo</div>
                     </div>
                     <div className="col ">
                         <div className="row mx-4">
                             <img src={Oneplus} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4  mx-5" style={{color:"red",fontSize:"25px"}}>Oneplus</div>
+                        <div className="row my-4  mx-5" style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Oneplus</div>
                     </div>
                     <div className="col ">
                         <div className="row mx-4">
                             <img src={Nothing} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4  mx-5" style={{color:"red",fontSize:"25px"}}>Nothing</div>
+                        <div className="row my-4  mx-5" style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Nothing</div>
                     </div>
                     <div className="col ">
                         <div className="row mx-4">
                             <img src={samsung} alt="samsung" style={{height:"90px",width:"120px"}}/>
                         </div>
-                        <div className="row my-4  mx-5" style={{color:"red",fontSize:"25px"}}>Samsung</div>
+                        <div className="row my-4  mx-5" style={{color:"rgb(20, 70, 160)",fontSize:"25px",fontWeight:"600"}}>Samsung</div>
                     </div>
                    
                     

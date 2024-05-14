@@ -30,6 +30,7 @@ let Home=()=>{
             </div>
             <Categories/>
         </div>
+
     )
 }
 export default Home
