@@ -40,14 +40,11 @@ let Nav = () => {
                   <Link to="/" class="nav-link menus fw-semibold" >Home</Link>
                 </li>
                 <li class="nav-item my-1">
-                  <Link to="/explore" class="nav-link menus fw-semibold" >Explore</Link>
-                </li>
-                <li class="nav-item my-1">
                   <a class="nav-link menus fw-semibold" href="#!">Cart</a>
                 </li>
                 <li class="nav-item my-1">
                   <a class="nav-link menus fw-semibold" href="#!">Profile</a>
-                </li>
+                </li>  
                 <li class="nav-item my-1">
                   <a class="nav-link menus fw-semibold" href="#!">Contact us</a>
                 </li>
@@ -61,7 +58,6 @@ let Nav = () => {
                     <button className="try">Try it for free <FaArrowRight /></button>
                   </a>
                 </li>
-                
               </ul>
             </div>
           </div>
