@@ -40,7 +40,7 @@ let Nav = () => {
                   <Link to="/" class="nav-link menus fw-semibold" >Home</Link>
                 </li>
                 <li class="nav-item my-1">
-                  <a class="nav-link menus fw-semibold" href="#!">Cart</a>
+                  <Link to="/cart" class="nav-link menus fw-semibold" href="#!">Cart</Link>
                 </li>
                 <li class="nav-item my-1">
                   <a class="nav-link menus fw-semibold" href="#!">Profile</a>
