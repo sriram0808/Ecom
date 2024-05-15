@@ -6,6 +6,7 @@ import { LuWaves } from "react-icons/lu";
 import { AiFillDelete } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
 import "../Assests/Css/Cart.css"
+import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
 let Cart=()=>{
@@ -122,7 +123,7 @@ let Cart=()=>{
                                             <button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply coupon</button>
                                         </div>
                                         <div className="text-center"> 
-                                            <button className="btn productButton w-50"> <FaShoppingCart />  Check out</button>
+                                            <Link to="/checkout"><button className="btn productButton w-50"> <FaShoppingCart />  Check out</button></Link>
                                         </div>
                                     </div>
                                 </div>

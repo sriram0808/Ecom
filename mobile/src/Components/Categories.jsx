@@ -6,6 +6,7 @@ import Vivo from "../Assests/Images/vivo.png"
 import Oneplus from "../Assests/Images/1+.png"
 import Nothing from "../Assests/Images/nothing.png"
 import Newarrival from "./Newarrival";
+
 let Categories=()=>{
     return(
         <div style={{backgroundColor:"rgb(248,248,248)"}}>
