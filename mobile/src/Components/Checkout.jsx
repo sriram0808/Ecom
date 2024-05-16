@@ -1,6 +1,7 @@
 import { MdFlight } from "react-icons/md";
 import { GiBus } from "react-icons/gi";
 import "../Assests/Css/Check.css"
+import Footer from "./Footer";
 
 let Checkout=()=>{
     return(
@@ -36,43 +37,43 @@ let Checkout=()=>{
                     <form action="#!" style={{border:"1px solid rgb(20, 70, 160)",borderRadius:"8px",backgroundColor:"white"}}>
                         <div class="row gy-4 gy-xl-5 p-4 p-xl-5 " >
                         <div class="col-12 col-md-6">
-                            <label for="email" class="form-label">Name <span class="text-danger">*</span></label>
+                            <label for="email" class="form-label checkForm">Name <span class="text-danger">*</span></label>
                             <div class="input-group">
                             
                             <input type="email" class="form-control" />
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
-                            <label for="phone" class="form-label">Sure Name <span class="text-danger">*</span></label>
+                            <label for="phone" class="form-label checkForm">Sure Name <span class="text-danger">*</span></label>
                             <div class="input-group">
                             <input type="tel" class="form-control" />
                             </div>
                         </div>
                         <div class="col-12">
-                            <label for="subject" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                            <label for="subject" class="form-label checkForm">Phone Number <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" />
                         </div>
                         
                         <div class="col-12 col-md-6">
-                            <label for="email" class="form-label">Country <span class="text-danger">*</span></label>
+                            <label for="email" class="form-label checkForm">Country <span class="text-danger">*</span></label>
                             <div class="input-group">
                             
                             <input type="email" class="form-control" />
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
-                            <label for="phone" class="form-label">City <span class="text-danger">*</span></label>
+                            <label for="phone" class="form-label checkForm">City <span class="text-danger">*</span></label>
                             <div class="input-group">
                             <input type="tel" class="form-control" />
                             </div>
                         </div>
                         <div class="col-12">
-                            <label for="message" class="form-label">Address <span class="text-danger">*</span></label>
+                            <label for="message" class="form-label checkForm">Address <span class="text-danger">*</span></label>
                             <textarea class="form-control"></textarea>
                         </div>
                         <div class="col-12">
                             <div class="d-grid">
-                            <button class="btn address btn-lg" type="submit">Add Address</button>
+                            <button class="btn address btn-lg" type="submit checkForm">Add Address</button>
                             </div>
                         </div>
                         </div>
@@ -85,8 +86,8 @@ let Checkout=()=>{
                     <div className="col-lg-6">
                         <div className="card mb-4 my-3 " style={{border:"1px solid rgb(20, 70, 160)",borderRadius:"8px"}}>
                             <div className="card-body" >
-                                <h5 className="card-title my-2" style={{ fontWeight: "700", color: "black", fontSize: "33px" }}>Shipping Details</h5>
-                                <p className="card-text" style={{ color: "rgb(122,122,122)" }}>Choose your preferred shipping</p>
+                                <h5 className="card-title my-2 shippingTitle">Shipping Details</h5>
+                                <p className="card-text shippingSubTitile">Choose your preferred shipping</p>
                                 <div className="d-flex  p-4 gap-3">
                                     <div className="card mb-4 my-3" style={{border:"3px solid rgb(20, 70, 160) "}}>
                                         <div className="card-body text-center">
@@ -106,6 +107,48 @@ let Checkout=()=>{
                                 </div>
                             </div>
                         </div>
+
+                        <div className="card mb-4 my-3" style={{ border: "1px solid rgb(20, 70, 160)", borderRadius: "8px" }}>
+                            <div className="card-body">
+                            <h5 className="card-title my-2 CartTitle">Cart Summary</h5>
+                            <div className="row my-4">
+                                <div className="col">
+                                    <h4 className="cartHeading">Apple Iphone 13 128GB</h4>
+                                </div>
+                                <div className="col">
+                                    <h4 className="text-end cartAmount">$599</h4>
+                                </div>
+                            </div>
+                            <div className="row my-4">
+                                <div className="col">
+                                    <h4 className="cartHeading">Nothing</h4>
+                                </div>
+                                <div className="col">
+                                    <h4 className="text-end cartAmount" >$499</h4>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col">
+                                    <h4 className="cartHeading">One plus 128GB</h4>
+                                </div>
+                                <div className="col">
+                                    <h4 className="text-end cartAmount" >$599</h4>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row">
+                                <div className="col">
+                                    <h4 className="cartHeading">Total</h4>
+                                </div>
+                                <div className="col">
+                                    <h4 className="text-end cartAmount" >$1611</h4>
+                                </div>
+                            </div>
+                            <button className="btn productButton w-100 my-4">Procced to pay</button>
+                            </div>
+                        </div>
+
+
                     </div>
 
 
@@ -113,6 +156,7 @@ let Checkout=()=>{
 
             </div>
         </div>
+        <Footer/>
     </div>
     )
 }
