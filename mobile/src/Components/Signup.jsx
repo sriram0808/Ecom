@@ -8,7 +8,7 @@ let SignUp=()=>{
         <div className="container p-5" >
         <div className="row justify-content-center">
             <div className="col-md-6 mb-4 ">
-                <div className="card h-100 p-5 " style={{border:"none"}}>
+                <div className="card h-10 p-5 " style={{border:"none"}}>
                     <div className="row no-gutters">
                         <div className="col-md-8">
                             <div className="card-body d-flex flex-column justify-content-center">
@@ -31,23 +31,23 @@ let SignUp=()=>{
                         <p className="formSubTitle">Sign up your new account & start journey with us</p>
                         <form>
                             <div className="form-group my-4">
-                                <label htmlFor="exampleInputEmail1" className="formName mb-3">User Name</label>
+                                <label htmlFor="exampleInputEmail1" className="formName mb-3">User Name<span className="text-danger">*</span></label>
                                 <input  className="form-control" placeholder="User Name" />
                             </div>
                             <div className="form-group my-4">
-                                <label  className="formName mb-3">Email</label>
+                                <label  className="formName mb-3">Email <span className="text-danger">*</span></label>
                                 <input  className="form-control" placeholder="Email" />
                             </div>
                             <div className="form-group my-4">
-                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Password</label>
+                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Password <span className="text-danger">*</span></label>
                                 <input type="password" className="form-control" placeholder="Password" />
                             </div>
                             <div className="form-group my-4">
-                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Mobile Number</label>
+                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Mobile Number <span className="text-danger">*</span></label>
                                 <input  className="form-control" placeholder="Number" />
                             </div>
                             <div className="form-group my-4">
-                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Address</label>
+                                <label htmlFor="exampleInputPassword1" className="formName mb-3">Address <span className="text-danger">*</span></label>
                                 <input type="password" className="form-control" placeholder="Address" />
                             </div>
                             <div className="form-check">

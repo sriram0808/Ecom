@@ -11,7 +11,7 @@ const Login = () => {
             <div className="container p-5" >
             <div className="row justify-content-center">
                 <div className="col-md-6 mb-4">
-                    <div className="card h-100 p-5 " style={{border:"none"}}>
+                    <div className="card h-10 p-5 " style={{border:"none"}}>
                         <div className="row no-gutters">
                             <div className="col-md-8">
                                 <div className="card-body d-flex flex-column justify-content-center">
@@ -34,12 +34,12 @@ const Login = () => {
                             <p className="formSubTitle">Login to your account & start your journey with us</p>
                             <form>
                                 <div className="form-group my-4">
-                                    <label htmlFor="exampleInputEmail1" className="formName mb-3">Email or Phone Number</label>
+                                    <label htmlFor="exampleInputEmail1" className="formName mb-3">Email or Phone Number <span className="text-danger">*</span></label>
                                     <input  className="form-control" placeholder="Enter email" />
                                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div>
                                 <div className="form-group my-4">
-                                    <label htmlFor="exampleInputPassword1" className="formName mb-3">Password</label>
+                                    <label htmlFor="exampleInputPassword1" className="formName mb-3">Password<span className="text-danger">*</span></label>
                                     <input type="password" className="form-control" placeholder="Password" />
                                 </div>
                                 <div className="form-check">

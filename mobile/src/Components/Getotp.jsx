@@ -9,8 +9,8 @@ const Getotp = () => {
        <div style={{ backgroundColor: "rgb(248,248,248)" }}>
          <div className="container " >
             <div className="row">
-                <div className="col-md-6 mb-4 ">
-                <div className="card h-100 p-5 " style={{border:"none"}}>
+            <div className="col-md-6 mb-4 ">
+                <div className="card h-10 p-5 " style={{border:"none"}}>
                     <div className="row no-gutters">
                         <div className="col-md-8">
                             <div className="card-body d-flex flex-column justify-content-center">
@@ -27,23 +27,23 @@ const Getotp = () => {
             </div>
 
                 <div className="col-md-6 mb-4">
-                    <div className="card h-100 p-5">
+                    <div className="card h-100 p-5"style={{border:"none"}}>
                         <div className="card-body">
                             <h5 className="card-title text-start mb-4 otpTitle">OTP Verification</h5>
                             <p className="text-start otpSubTitle">Please enter the code we <br /> sent  to your mobile <br /> number *******98</p>
                             <form>
                                 <div className="form-group row">
                                     <div className="col">
-                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required />
+                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required  style={{width:"40px"}}/>
                                     </div>
                                     <div className="col">
-                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required />
+                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required  style={{width:"40px"}}/>
                                     </div>
                                     <div className="col">
-                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required />
+                                        <input type="text" className="form-control otp-input" maxLength="1" pattern="\d" required  style={{width:"40px"}}/>
                                     </div>
                                     <div className="col">
-                                        <input type="text" className="form-control otp-input" maxLength="2" pattern="\d" required />
+                                        <input type="text" className="form-control otp-input" maxLength="2" pattern="\d" required  style={{width:"40px"}}/>
                                     </div>
                                     <h5 className="text-center seconds my-3">00:30</h5>
                                     <h6 className="text-center">Did'nt recieve otp <span><a href="">Resend OTP</a></span></h6>

@@ -42,20 +42,22 @@ let Nav = () => {
                 <li class="nav-item my-1">
                   <Link to="/cart" class="nav-link menus fw-semibold" href="#!">Cart</Link>
                 </li>
-                <li class="nav-item my-1">
-                  <a class="nav-link menus fw-semibold" href="#!">Profile</a>
-                </li>  
+              <li class="nav-item dropdown my-1">
+                <a class="nav-link dropdown-toggle menus fw-semibold" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Profile
+                </a>
+                <div class="dropdown-menu " aria-labelledby="profileDropdown">
+                  <a class="dropdown-item menuss" href="#!">Your orders</a>
+                  <a class="dropdown-item menuss" href="#!">Edit profile</a>
+                  <a class="dropdown-item menuss" href="#!">Sign out</a>
+                </div>
+              </li>
                 <li class="nav-item my-1">
                   <a class="nav-link menus fw-semibold" href="#!">Contact us</a>
                 </li>
                 <li class="nav-item" >
                   <a class="nav-link menus" href="#!">
-                   <Link to="/login"> <button className="login">Login</button></Link>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#!">
-                    <button className="try">Try it for free <FaArrowRight /></button>
+                   <Link to="/login"><button className="login">Login</button></Link>
                   </a>
                 </li>
               </ul>

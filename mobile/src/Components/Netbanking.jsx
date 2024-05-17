@@ -38,9 +38,9 @@ let Netbanking=()=>{
                                 Select Bank
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Bank 1</a></li>
-                                <li><a class="dropdown-item" href="#">Bank 2</a></li>
-                                <li><a class="dropdown-item" href="#">Bank 3</a></li>
+                                <li><a class="dropdown-item bankMenu" href="#">Bank 1</a></li>
+                                <li><a class="dropdown-item bankMenu" href="#">Bank 2</a></li>
+                                <li><a class="dropdown-item bankMenu" href="#">Bank 3</a></li>
                             </ul>
                             </div>
                 </div>
