@@ -2,6 +2,7 @@ import { MdFlight } from "react-icons/md";
 import { GiBus } from "react-icons/gi";
 import "../Assests/Css/Check.css"
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 let Checkout=()=>{
     return(
@@ -144,7 +145,7 @@ let Checkout=()=>{
                                     <h4 className="text-end cartAmount" >$1611</h4>
                                 </div>
                             </div>
-                            <button className="btn productButton w-100 my-4">Procced to pay</button>
+                            <Link to="/creditcard"><button className="btn productButton w-100 my-4">Procced to pay</button></Link>
                             </div>
                         </div>
 

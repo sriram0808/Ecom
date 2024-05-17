@@ -1,0 +1,28 @@
+.otpTitle{
+    color: rgb(20, 70, 160);;
+    font-size: 35px;
+    font-weight: 700;
+}
+.otpSubTitle{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.seconds{
+    color: rgb(20, 70, 160);;
+    font-size: 15px;
+    font-weight: bold;
+}
+.verifyOtpButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 100% !important;
+}
+.verifyOtpButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

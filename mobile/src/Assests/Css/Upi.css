@@ -1,0 +1,20 @@
+.custom-radio {
+    width: 20px; 
+    height: 20px; 
+}
+.upiInput{
+    width: 50%;
+}
+.makeapaymentButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 50% !important;
+}
+.makeapaymentButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

@@ -1,0 +1,13 @@
+.selectBankButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 30% !important;
+}
+.selectBankButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

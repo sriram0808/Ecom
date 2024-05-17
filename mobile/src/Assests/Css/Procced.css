@@ -1,0 +1,50 @@
+.title{
+    font-size: 30px;
+    font-weight: bold;
+ }
+.payHeading{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(20, 70, 160);
+}
+.img{
+    height: 200px;
+    width: 30%;
+   
+}
+@media (min-width: 240px) {
+    .img {
+        height: 150px !important;
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .img {
+        width: 25%;
+    }
+}
+.cardTitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(20, 70, 160);
+}
+.continueButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 30% !important;
+}
+.continueButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

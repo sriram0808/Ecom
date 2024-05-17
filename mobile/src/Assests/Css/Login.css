@@ -1,0 +1,45 @@
+.loginTitle{
+    /* font-size: 50px; */
+    font-weight: 700;
+    color:  rgb(20, 70, 160);
+}
+
+.formTitle{
+    color: rgb(20, 70, 160);;
+    font-size: 30px;
+    font-weight: 700;
+}
+.formSubTitle{
+    color: black;
+    font-size: 18px;
+
+}
+.formName{
+    color: rgb(20, 70, 160);;
+    font-size: 20px;
+    font-weight: 700;
+}
+.centered-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+image-column img {
+    max-width: 100%;
+    height: auto;
+}
+.signinButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 100% !important;
+}
+.signinButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}
+

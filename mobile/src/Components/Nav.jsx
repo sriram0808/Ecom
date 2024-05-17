@@ -50,7 +50,7 @@ let Nav = () => {
                 </li>
                 <li class="nav-item" >
                   <a class="nav-link menus" href="#!">
-                    <button className="login">Login</button>
+                   <Link to="/login"> <button className="login">Login</button></Link>
                   </a>
                 </li>
                 <li class="nav-item">
