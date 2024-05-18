@@ -25,7 +25,7 @@ let Cart=()=>{
             name: "Samsung Galaxy S21",
             color: "blue",
             image: mobile,
-            price: "$699",
+            price: "$699",        
             count: 2
         },
         {

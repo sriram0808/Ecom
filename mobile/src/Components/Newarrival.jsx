@@ -3,11 +3,13 @@ import Mobile1 from "../Assests/Images/mobil1.png"
 import { MdDoubleArrow } from "react-icons/md";
 import "../Assests/Css/New.css"
 import Customer from "./Customer";
+import { Link } from "react-router-dom";
 
 let Newarrival=()=>{
 
     const cardData = [
         {
+            id: 1,
             image: Mobile1,
             alt: "Card 1",
             content: "Apple 15 pro max",
@@ -15,6 +17,7 @@ let Newarrival=()=>{
             delivery:"Free delivery"
         }, 
         {
+            id:2,
             image: Mobile1,
             alt: "Card 2",
             content: "Oneplus 11 5g",
@@ -22,6 +25,7 @@ let Newarrival=()=>{
             delivery:"Free delivery"
         },
         {
+            id:3,
             image: Mobile1,
             alt: "Card 3",
             content: "Samsung s23 ultra",
@@ -29,6 +33,7 @@ let Newarrival=()=>{
             delivery:"Free delivery"
         },
         {
+            id:4,
             image: Mobile1,
             alt: "Card 3",
             content: "Redmi",
@@ -37,6 +42,7 @@ let Newarrival=()=>{
 
         },
         {
+            id:5,
             image: Mobile1,
             alt: "Card 3",
             content: "Vivo y15",
@@ -45,6 +51,7 @@ let Newarrival=()=>{
 
         },
         {
+            id:6,
             image: Mobile1,
             alt: "Card 3",
             content: "Oppo",
@@ -53,6 +60,7 @@ let Newarrival=()=>{
 
         },
         {
+            id:7,
             image: Mobile1,
             alt: "Card 3",
             content: "Real me",
@@ -61,6 +69,7 @@ let Newarrival=()=>{
 
         },
         {
+            id:8,
             image: Mobile1,
             alt: "Card 3",
             content: "Nothing",
@@ -81,15 +90,19 @@ let Newarrival=()=>{
                 </div>
             </div>
 
-
-            <div className="container-fluid my-4 justify-content-center mt-5">
+ <div className="container-fluid my-4 justify-content-center mt-5">
     <div className="row text-center " style={{margin:"50px"}}>
         {cardData.slice(0, 4).map((card, index) => (
             <div className="col mb-4" key={index} >
                 <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
-                    <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
+                <Link to={`/viewproduct/${card.id}`}>
+                                    <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
+                </Link>
                     <div className="card-body">
-                        <p className="text-center mobileName">{card.content}</p>
+                <Link to={`/viewproduct/${card.id}`}>
+                <p className="text-center mobileName">{card.content}</p>
+                </Link>
+                        
                         <p className="text-center mobileRate">{card.amount}</p>
                         <p className="text-center mobileDelivery">{card.delivery}</p>
                     </div>

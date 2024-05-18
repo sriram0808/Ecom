@@ -1,0 +1,142 @@
+.viewmobileName{
+    color: rgb(20, 70, 160);;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.viewAmount{
+    color: rgb(20, 70, 160);;
+    font-size: 30px;
+    font-weight: bold;
+}
+.viewStock{
+    color: grey;
+
+}
+.viewColor{
+    color: rgb(20, 70, 160);
+    font-weight: 600;
+}
+.viewSize{
+    border: 1px solid rgb(20, 70, 160);
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border-radius: 5px;
+    font-weight: 600;
+}
+.viewRam{
+    color: rgb(20, 70, 160);
+    font-weight: 600;
+}
+.viewBuyButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 100% !important;
+    height: 130%;
+
+}
+.viewBuyButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}
+.viewAddButton{
+    background-color: rgb(2, 4, 2);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 100% !important;
+    height: 70%;
+    align-items: center;
+
+}
+.viewAddButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}
+.viewMinusButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border: none;
+}
+.viewPlusButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border: none;
+}
+.viewHighlightsTitle{
+    font-size: 35px;
+    font-weight: 600;
+}
+.viewHighlightsLeft{
+    font-weight: bold;
+    font-size: 16px;
+}
+.viewHighlightsRight{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(20, 70, 160);
+}
+
+.viewTechnicalTitle{
+    font-size: 35px;
+    font-weight: 600;
+}
+.viewTechinalLeft{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.viewTechincalRight{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(20, 70, 160);
+
+}
+.iphoneTitle{
+    color: rgb(20, 70, 160);
+    font-size: 35px;
+    font-weight: 700;
+}
+.iphoneSubtitle{
+    color: black;
+    font-weight: 600;
+}
+
+
+.appleTitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.leftHeading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.leftSubHeading{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(20, 70, 160);
+
+}
+.viewCustomerTitle{
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.viewCustomerSays{
+    color: rgb(20, 70, 160);
+    font-size: 15px;
+    font-weight: bold;
+    
+}

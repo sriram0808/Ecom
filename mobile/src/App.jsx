@@ -9,6 +9,7 @@ import Upi from "./Components/Upi"
 import Login from "./Components/Login"
 import SignUp from "./Components/Signup"
 import Getotp from "./Components/Getotp"
+import Viewproduct from "./Components/Viewproduct"
 
 
 
@@ -28,6 +29,7 @@ let App=()=>{
             <Route element={<Login/>} path="/login"/>
             <Route element={<SignUp/>} path="/signup"/>
             <Route element={<Getotp/>} path="/getotp"/>
+            <Route element={<Viewproduct/>} path="/viewproduct/:id"/>
            </Routes>
            </BrowserRouter>
         </div>
