@@ -1,0 +1,40 @@
+.contactTitle{
+    font-size: 35px;
+    color: rgb(20, 70, 160);;
+    font-weight: bold;
+
+}
+.contactSubTitle{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.contactButton{
+    border: none;
+    border: 1px solid  rgb(20, 70, 160);;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    color: rgb(20, 70, 160);;
+    font-weight: bold;
+    width: 180px;
+}
+.contactFormName{
+    color: rgb(20, 70, 160);;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contactSendMessageButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 60% !important;
+    height: 50px;
+}
+.contactSendMessageButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

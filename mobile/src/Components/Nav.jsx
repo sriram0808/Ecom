@@ -53,7 +53,7 @@ let Nav = () => {
                 </div>
               </li>
                 <li class="nav-item my-1">
-                  <a class="nav-link menus fw-semibold" href="#!">Contact us</a>
+                 <Link to="/contact"> <a class="nav-link menus fw-semibold" href="#!">Contact us</a></Link>
                 </li>
                 <li class="nav-item" >
                   <a class="nav-link menus" href="#!">
