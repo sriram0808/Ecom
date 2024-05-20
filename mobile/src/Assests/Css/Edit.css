@@ -30,3 +30,8 @@
     border: 1px solid rgb(20, 70, 160);
     transition: all 0.3s;
 }
+.editLabel{
+    color: rgb(20, 70, 160);
+    font-weight: bold;
+
+}
