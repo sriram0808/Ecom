@@ -14,12 +14,15 @@ let Nav = () => {
     <div className="sticky-top"> 
       <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret">
         <div class="container">
+          
           <a class="navbar-brand" href="index.html">
             <img src={logo} alt="Mobile Logo" width="120" height="35" className="mx-2 my-2" />
           </a>
+          
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <CgMenuRight />
           </button>
+          
           <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h1 class="offcanvas-title fw-bold menus" id="offcanvasNavbarLabel ">Menu</h1>
