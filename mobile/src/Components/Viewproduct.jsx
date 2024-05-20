@@ -170,7 +170,7 @@ const Viewproduct = () => {
                                     <h6 className="leftSubHeading">128GB, 256GB, 512GB</h6>
                                     <h5 className="leftHeading">Memory</h5>
                                     <h6 className="leftSubHeading">4GB RAM</h6>
-                                    <h5 className="leftHeading">Operating syste,</h5>
+                                    <h5 className="leftHeading">Operating system</h5>
                                     <h6 className="leftSubHeading">IOS 15, 5G</h6>
                             </div>
                             <div class="col-md-4 order-md-3 mb-4 my-3">
@@ -236,43 +236,43 @@ const Viewproduct = () => {
                                     <div className="d-flex flex-wrap justify-content-center">
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox1" name="checkbox1" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox1" name="checkbox1" checked />
                                             <label className="form-check-label" htmlFor="checkbox1">Quality</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox2" name="checkbox2" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox2" name="checkbox2" checked />
                                             <label className="form-check-label" htmlFor="checkbox2">Battery life</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox3" name="checkbox3" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox3" name="checkbox3" checked />
                                             <label className="form-check-label" htmlFor="checkbox3">Performance</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox4" name="checkbox4" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox4" name="checkbox4" checked />
                                             <label className="form-check-label" htmlFor="checkbox4">Appearance</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox6" name="checkbox6" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox6" name="checkbox6" checked />
                                             <label className="form-check-label" htmlFor="checkbox6">Smoothness</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox7" name="checkbox7" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox7" name="checkbox7" checked />
                                             <label className="form-check-label" htmlFor="checkbox7">Picture quality</label>
                                         </div>
                                         </div>
                                         <div className="p-2">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="checkbox7" name="checkbox7" checked disabled/>
+                                            <input className="form-check-input" type="checkbox" id="checkbox7" name="checkbox7" checked />
                                             <label className="form-check-label" htmlFor="checkbox7">Cameras</label>
                                         </div>
                                         
