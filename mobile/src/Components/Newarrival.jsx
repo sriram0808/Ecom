@@ -90,44 +90,39 @@ let Newarrival=()=>{
                 </div>
             </div>
 
- <div className="container-fluid my-4 justify-content-center mt-5">
-    <div className="row text-center " style={{margin:"50px"}}>
-        {cardData.slice(0, 4).map((card, index) => (
-            <div className="col mb-4" key={index} >
-                <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
-                <Link to={`/viewproduct/${card.id}`}>
-                                    <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
-                </Link>
-                    <div className="card-body">
-                <Link to={`/viewproduct/${card.id}`}>
-                <p className="text-center mobileName">{card.content}</p>
-                </Link>
-                        
-                        <p className="text-center mobileRate">{card.amount}</p>
-                        <p className="text-center mobileDelivery">{card.delivery}</p>
+                    <div className="container-fluid my-4 justify-content-center mt-5">
+                        <div className="row text-center " style={{margin:"50px"}}>
+                            {cardData.slice(0, 4).map((card, index) => (
+                                <div className="col mb-4" key={index} >
+                                    <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
+                                    <Link to={`/viewproduct/${card.id}`}><img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/> </Link>
+                                        <div className="card-body">
+                                        <Link to={`/viewproduct/${card.id}`}><p className="text-center mobileName">{card.content}</p></Link>
+                                            <p className="text-center mobileRate">{card.amount}</p>
+                                            <p className="text-center mobileDelivery">{card.delivery}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="row text-center" style={{margin:"50px"}}>
+                            {cardData.slice(4).map((card, index) => (
+                                <div className="col mb-4" key={index}>
+                                    <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
+                                    <Link to={`/viewproduct/${card.id}`}> <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/></Link>
+                                        <div className="card-body">
+                                        <Link to={`/viewproduct/${card.id}`}><p className="text-center mobileName">{card.content}</p> </Link>
+                                            <p className="text-center mobileRate">{card.amount}</p>
+                                            <p className="text-center mobileDelivery">{card.delivery}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="text-center my-5">
+                            <button className="view">View all collections <MdDoubleArrow /></button>
+                        </div>
                     </div>
-                </div>
-            </div>
-        ))}
-    </div>
-    <div className="row text-center" style={{margin:"50px"}}>
-        {cardData.slice(4).map((card, index) => (
-            <div className="col mb-4" key={index}>
-                <div className="card" style={{ width: "18rem", backgroundColor: "white" }}>
-                    <img className="card-img-top" src={card.image} alt={card.alt} style={{ height: "270px" }}/>
-                    <div className="card-body">
-                        <p className="text-center mobileName">{card.content}</p>
-                        <p className="text-center mobileRate">{card.amount}</p>
-                        <p className="text-center mobileDelivery">{card.delivery}</p>
-                    </div>
-                </div>
-            </div>
-        ))}
-    </div>
-    <div className="text-center my-5">
-        <button className="view">View all collections <MdDoubleArrow /></button>
-    </div>
-</div>
 
 
             <Customer/>

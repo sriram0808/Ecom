@@ -140,3 +140,57 @@
     font-weight: bold;
     
 }
+
+.viewReview-CommentsTitle{
+    font-size: 35px;
+    font-weight: 700;
+}
+.profile-image {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+  }
+  .reviews-para{
+    color: rgb(20, 70, 160);
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  .customerDetails-para{
+    color: grey;
+    font-weight: bold;
+  }
+  .StarButton4{
+    border: none;
+    border-radius: 5px;
+    background-color: #1FBE5D;
+    color: white;
+  }
+  .viewCommentsButton{
+    border: none;
+    background-color: rgb(20, 70, 160);
+    color: white;
+    height: 50px;
+    width: 60%;
+    border-radius: 5px;
+  }
+  .viewCommentsButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}
+
+.relatedPhoneName{
+    color: rgb(20, 70, 160);
+    font-weight: bold;
+
+}
+.relatedPhoneRate{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.relatedPhoneDelivery{
+    color: rgb(31, 190, 93);;
+}

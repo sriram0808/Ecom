@@ -4,19 +4,26 @@ import "../Assests/Css/Viewproduct.css";
 import { FaApple } from "react-icons/fa";
 import banner from "../Assests/Images/iiii.png"
 import { GoDotFill } from "react-icons/go";
+import sri from "../Assests/Images/sri.png"
+import review from "../Assests/Images/reviewPhone.png"
+import { GoStarFill } from "react-icons/go";
+import muruga from "../Assests/Images/muruga.png"
+import review2 from "../Assests/Images/reviewPhone2.png"
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import Footer from "./Footer";
 
 const Viewproduct = () => {
   const { id } = useParams();
 
   return (
-    <div>
+    <div style={{backgroundColor:"rgb(248,248,248)"}}>
       <h1>{id}</h1>
-      <div className="d-flex justify-content-center min-vh-100">
+      <div className="d-flex justify-content-center min-vh-100" >
         <div className="col-md-6">
           <div className="card" style={{ border: "none" }}>
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={mobile} className="img-fluid rounded-start my-5" alt="Phone 1" />
+                <img src={mobile} className="img-fluid  rounded-start my-5" alt="Phone 1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
@@ -57,6 +64,14 @@ const Viewproduct = () => {
 
 
 
+
+                </div>
+              </div>
+
+
+
+
+              
                   {/* Highlights section under the buttons */}
 
                   <div className="container my-5">
@@ -138,18 +153,20 @@ const Viewproduct = () => {
 
                  <div className="container">
                     <div className="row text-center align-items-center">
-                        <div className="col-auto ">
-                        <FaApple size={70} />
-                        </div>
+                        
                         <div className="col">
-                        <h1 className="mb-0 iphoneTitle">iPhone 13</h1>
+                        <h1 className="mb-0 iphoneTitle">
+                        <FaApple size={60} color="black"/>
+                           iPhone 13</h1>
                         </div>
                     </div>
                     <div className="row text-center my-4">
                         <h1 className="iphoneTitle">Your new super power</h1>
                         <p className="my-3 iphoneSubtitle">A super-bright display in a durable design. Hollywood-worth video shooting made easy. Alighting-fast chip. And a big boost in battery life you notice every day</p>
                     </div>
+                    <div class="d-flex justify-content-center">
                     <img src={banner} class="img-fluid" alt="" />
+                    </div>
                   </div>
 
 
@@ -157,11 +174,11 @@ const Viewproduct = () => {
 
                     <div class="container">
                         <div class="row">
-                        <h1 className="text-center appleTitle my-3">Apple Iphon 13</h1>
+                        <h1 className="text-center appleTitle my-3">Apple iPhone 13</h1>
                             <div class="col-md-4 order-md-2 text-center mb-4">
-                                <img src={mobile} class="img-fluid  w-100 my-5" alt="Centered Image"/>
+                                <img src={mobile} class="img-fluid   w-100 my-5" alt="Centered Image"/>
                             </div>
-                            <div class="col-md-4 order-md-1 mb-4 my-3">
+                            <div class="col-md-4 order-md-1 mb-4 my-5">
                                     <h5 className="leftHeading">Rear Cameras</h5>
                                     <h6 className="leftSubHeading">12MP,f/1.6,26mm Ultrawide:12MP,f/2.4,120,13mm</h6>
                                     <h5 className="leftHeading">Processor</h5>
@@ -173,7 +190,7 @@ const Viewproduct = () => {
                                     <h5 className="leftHeading">Operating system</h5>
                                     <h6 className="leftSubHeading">IOS 15, 5G</h6>
                             </div>
-                            <div class="col-md-4 order-md-3 mb-4 my-3">
+                            <div class="col-md-4 order-md-3 mb-4 my-5">
                                     <h5 className="leftHeading">Front Camera</h5>
                                     <h6 className="leftSubHeading">Selfie:12MP,f/22,23mm</h6>
                                     <h5 className="leftHeading">Display</h5>
@@ -286,17 +303,78 @@ const Viewproduct = () => {
 
 
 
+                        {/* Review  and comments section start  */}
+
+                        <div class="container">
+                            <div class="row text-center">
+                              <h1 class="viewReview-CommentsTitle my-3">Reviews and Comments</h1>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-3">
+                                  <img src={sri} alt="Profile Image" class="img-fluid rounded-circle mb-3 profile-image"/>
+                                  <button className="mx-3 StarButton4">4 <GoStarFill /></button>
+                              </div>
+                                <p className="reviews-para">Nice mobile for professional use, And I like the rear camera</p>
+                              <div class="col-md-3">
+                                  <img src={review} alt="Product Image" class="img-fluid img-thumbnail mb-3"/>
+                              </div>
+                                <p className="customerDetails-para">Sri Ram R  <span style={{fontSize:"12px"}}>Certified buyer, Banglore 2 days ago</span></p>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-3">
+                                  <img src={muruga} alt="Profile Image" class="img-fluid rounded-circle mb-3 profile-image"/>
+                                  <button className="mx-3 StarButton4">3 <GoStarFill /></button>
+                              </div>
+                                <p className="reviews-para">Nice mobile for professional use, And I like the rear camera</p>
+                              <div class="col-md-3">
+                                  <img src={review2} alt="Product Image" class="img-fluid img-thumbnail mb-3"/>
+                              </div>
+                                <p className="customerDetails-para">Muruganatham  <span style={{fontSize:"12px"}}>Certified buyer, chennai 2 days ago</span></p>
+                            </div>
+                            <div className="row d-flex justify-content-center my-3">
+                              <button className="viewCommentsButton">View all comments <MdKeyboardDoubleArrowRight /></button>
+                            </div>
+                          </div>
 
 
-
-
-
-                </div>
-              </div>
+                          {/* Related items you viewed  */}
+                          <div className="container">
+                            <div className="row text-center ">
+                              <h1 className="viewReview-CommentsTitle my-3">Related to items you viewed</h1>
+                            </div>
+    
+                                <div class="row d-flex justify-content-around">
+                                  <div class="card col-md-3 mb-3" style={{height:"100%",border:"none"}}>
+                                    <div class="card-body text-center">
+                                      <img src={mobile} alt="Profile Image" class="img-fluid img-thumbnail mb-3"/>
+                                      <h5 class="card-title relatedPhoneName">One plus 11 5G</h5>
+                                      <h6 class="card-subtitle mb-2  relatedPhoneRate">$699</h6>
+                                      <p class="card-text relatedPhoneDelivery">Free Delivery</p>
+                                    </div>
+                                  </div>
+                                  <div class="card col-md-3 mb-3" style={{height:"100%",border:"none"}}>
+                                    <div class="card-body text-center">
+                                      <img src={mobile} alt="Profile Image" class="img-fluid img-thumbnail mb-3"/>
+                                      <h5 class="card-title relatedPhoneName">Apple iPhone 15</h5>
+                                      <h6 class="card-subtitle mb-2  relatedPhoneRate">$599</h6>
+                                      <p class="card-text relatedPhoneDelivery">Free Delivery</p>
+                                    </div>
+                                  </div>
+                                  <div class="card col-md-3 mb-3" style={{height:"100%",border:"none"}}>
+                                    <div class="card-body text-center">
+                                      <img src={mobile} alt="Profile Image" class="img-fluid img-thumbnail mb-3"/>
+                                      <h5 class="card-title relatedPhoneName">Samsung s23 ultra</h5>
+                                      <h6 class="card-subtitle mb-2  relatedPhoneRate">$499</h6>
+                                      <p class="card-text relatedPhoneDelivery">Free Delivery</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
             </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
