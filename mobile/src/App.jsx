@@ -10,6 +10,7 @@ import Login from "./Components/Login"
 import SignUp from "./Components/Signup"
 import Getotp from "./Components/Getotp"
 import Viewproduct from "./Components/Viewproduct"
+import Editprofile from "./Components/Editprofile"
 
 
 
@@ -30,6 +31,7 @@ let App=()=>{
             <Route element={<SignUp/>} path="/signup"/>
             <Route element={<Getotp/>} path="/getotp"/>
             <Route element={<Viewproduct/>} path="/viewproduct/:id"/>
+            <Route element={<Editprofile/>} path="/editprofile"/>
            </Routes>
            </BrowserRouter>
         </div>

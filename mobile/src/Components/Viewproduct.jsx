@@ -61,10 +61,6 @@ const Viewproduct = () => {
                       Add to cart
                     </button>
                   </div>
-
-
-
-
                 </div>
               </div>
 

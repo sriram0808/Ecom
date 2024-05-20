@@ -1,0 +1,32 @@
+.saveChangesButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 40% !important;
+    height: 55px;
+    
+
+}
+.saveChangesButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}
+.editButton{
+    background-color: rgb(20, 70, 160);
+    height: 38px;
+    width: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+}
+.editButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

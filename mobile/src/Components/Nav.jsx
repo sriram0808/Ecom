@@ -48,7 +48,7 @@ let Nav = () => {
                 </a>
                 <div class="dropdown-menu " aria-labelledby="profileDropdown">
                   <a class="dropdown-item menuss" href="#!">Your orders</a>
-                  <a class="dropdown-item menuss" href="#!">Edit profile</a>
+                 <Link to="/editprofile"><a class="dropdown-item menuss" href="#!">Edit profile</a></Link>
                   <a class="dropdown-item menuss" href="#!">Sign out</a>
                 </div>
               </li>
