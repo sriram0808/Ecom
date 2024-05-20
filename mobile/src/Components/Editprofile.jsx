@@ -30,16 +30,16 @@ let Editprofile = () => {
             <input type="text" className="form-control" placeholder="***********98" />
           </div>
           <div className="col-auto">
-            <button className="btn btn-primary my-4 editButton">Edit <span className="text-danger">*</span></button>
+            <button className="btn btn-primary my-4 editButton">Edit </button>
           </div>
         </div>
         <div className="row mb-3 align-items-center">
           <div className="col">
-            <label htmlFor="" className="mb-2 editLabel">Password <span className="text-danger">*</span></label>
+            <label htmlFor="" className="mb-2 editLabel">Password</label>
             <input type="password" className="form-control" placeholder="*****" />
           </div>
           <div className="col-auto">
-            <button className="btn btn-primary my-4 editButton">Edit <span className="text-danger">*</span></button>
+            <button className="btn btn-primary my-4 editButton">Edit </button>
           </div>
         </div>
         <div className="row mb-3 align-items-center">
