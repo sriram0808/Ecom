@@ -11,6 +11,7 @@ import muruga from "../Assests/Images/muruga.png"
 import review2 from "../Assests/Images/reviewPhone2.png"
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const Viewproduct = () => {
   const { id } = useParams();
@@ -54,9 +55,9 @@ const Viewproduct = () => {
                   <button className="viewSize mx-1">512 GB</button>
                   <br />
                   <div className="d-grid gap-2 my-3">
-                    <button className="btn viewBuyButton" type="button">
+                    <Link to="/checkout"><button className="btn viewBuyButton" type="button">
                       Buy Now
-                    </button>
+                    </button></Link>
                     <button className="btn viewAddButton my-3" type="button">
                       Add to cart
                     </button>

@@ -6,6 +6,7 @@ import atm from "../Assests/Images/atm.jpg"
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
+
 let Creditcard=()=>{
     return(
         <div style={{ backgroundColor: "rgb(248,248,248)" }}>
@@ -74,7 +75,7 @@ let Creditcard=()=>{
                             </div>
 
                             <div className="row d-flex justify-content-center">
-                            <button class="btn continueButton" type="button">Continue</button>
+                            <Link to="/sucess"><button class="btn continueButton" type="button">Continue</button></Link>
                             </div>
                         </div>
 

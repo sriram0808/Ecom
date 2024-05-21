@@ -1,0 +1,28 @@
+.sucessTitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(20, 70, 160);
+
+}
+.sucessRowHeading{
+    color: black;
+    font-weight: bold;
+}
+.sucessSecondRow{
+    font-weight: bold;
+    color: rgb(20, 70, 160);
+}
+.successButton{
+    background-color: rgb(20, 70, 160);
+    color: white;
+    border-radius: 8px !important;
+    border: none;
+    width: 300px!important;
+    height: 50px;
+}
+.successButton:hover{
+    background-color: white;
+    color: rgb(20, 70, 160);
+    border: 1px solid rgb(20, 70, 160);
+    transition: all 0.3s;
+}

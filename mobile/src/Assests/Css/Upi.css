@@ -10,7 +10,8 @@
     color: white;
     border-radius: 8px !important;
     border: none;
-    width: 50% !important;
+    width: 30% !important;
+   
 }
 .makeapaymentButton:hover{
     background-color: white;

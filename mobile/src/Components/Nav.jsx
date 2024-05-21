@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { FaArrowRight } from "react-icons/fa";

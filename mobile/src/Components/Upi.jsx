@@ -60,8 +60,8 @@ let Upi=()=>{
                             </div>
 
 
-                            <div className="row my-5 d-flex justify-content-center">
-                            <button class="btn makeapaymentButton" type="button">Make a Payment</button>
+                            <div className="row my-5 d-flex justify-content-center ttt">
+                                     <button class="btn makeapaymentButton" type="button">Make a Payment</button>
                             </div>
                         </div>
          </div>
