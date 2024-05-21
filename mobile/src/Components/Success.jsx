@@ -30,7 +30,7 @@ let Sucess=()=>{
                     <tr>
                         <td className="sucessSecondRow" style={{color:"rgb(20, 70, 160)"}}>03</td>
                         <td className="sucessSecondRow" style={{color:"rgb(20, 70, 160)"}}>May, 04, 2024</td>
-                        <td className="sucessSecondRow" style={{color:"rgb(20, 70, 160)"}}>Credit card</td>
+                        <td className="sucessSecondRow" style={{color:"rgb(20, 70, 160)"}}>Credit Card Payment</td>
                         <td className="">
                             <div className="row">
                                 <div className="col-6 text-center">
