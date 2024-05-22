@@ -13,7 +13,7 @@ let Nav = () => {
       <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret">
         <div class="container">
           
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/">
             <img src={logo} alt="Mobile Logo" width="120" height="35" className="mx-2 my-2" />
           </a>
           

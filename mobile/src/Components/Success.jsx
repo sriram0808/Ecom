@@ -23,7 +23,7 @@ let Sucess=()=>{
                         <th>Order Number</th>
                         <th>Date</th>
                         <th>Payment Method</th>
-                        <th className="text-center">Order <a href="">#430-56789-098765</a></th>
+                        <th className="text-center">Order <a href="/">#430-56789-098765</a></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,7 +34,7 @@ let Sucess=()=>{
                         <td className="">
                             <div className="row">
                                 <div className="col-6 text-center">
-                                    <p className="sucessSecondRow ">View order details</p>
+                                    <p className="sucessSecondRow ">View order details</p>                                                                    
                                 </div>
                                 <div className="col-6">
                                     <p className="sucessSecondRow ">Track your order</p>
